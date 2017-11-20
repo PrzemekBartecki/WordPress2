@@ -1,32 +1,36 @@
 body{
-  background-image: url("../img/cloud.jpg");
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+  margin: 0;
+  padding:0;
+  //background-image: url("../img/cloud.jpg");
+  //width: 100%;
+  //background-repeat: no-repeat;
+  //background-position: center center;
+  //background-attachment: fixed;
 }
-section {
+.test {
   background-color: peachpuff;
   width: 1200px;
   margin: 0 auto;
 }
 
-#leftmenu{
+.leftmenu {
   position: fixed;
-}
+  border: 2px solid red;
+  }
 
 #menu-leftmenu li {
   list-style: none;
   display: inline-block;
-  margin: 50px;
+
 }
 
 #mainimg {
-  background-image: url("../img/mainimg.png");
+  background-image: url("../img/mainimg2.png");
+  width: 1800px;
+  height: 450px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed;
-  width: 1300px;
-  height: 625px;
-  margin: 0 auto;
-}
+  background-size:100% 100%;
+  margin-top: 100px;
+  }

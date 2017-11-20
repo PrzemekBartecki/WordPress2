@@ -13,7 +13,7 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<nav id="leftmenu">
+	<div id=leftmenu">
 		<?php wp_nav_menu(['menu'	=>	'leftmenu']); ?>
-	</nav>
+	</div>
 
