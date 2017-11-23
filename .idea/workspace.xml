@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a16e3ff-0625-4709-a8bf-9b20dba25a62" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/projekt.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/js/app.js" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js.map" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_heder.scss" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_heder.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/scss/main.scss" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/scss/main.scss" />
-    </list>
+    <list default="true" id="1a16e3ff-0625-4709-a8bf-9b20dba25a62" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -309,12 +294,12 @@
       <workItem from="1511388642918" duration="1124000" />
       <workItem from="1511390101886" duration="943000" />
       <workItem from="1511423551331" duration="26091000" />
-      <workItem from="1511466514539" duration="8532000" />
+      <workItem from="1511466514539" duration="8723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111353000" />
+    <option name="totallyTimeSpent" value="111544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="7" />
