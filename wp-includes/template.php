@@ -282,13 +282,13 @@ function get_tag_template() {
  *
  * 1. taxonomy-{taxonomy_slug}-{term_slug}.php
  * 2. taxonomy-{taxonomy_slug}.php
- * 3. taxonomy.php
+ * 3. taxonomy-oferta-abonament.php
  *
  * An example of this is:
  *
  * 1. taxonomy-location-texas.php
  * 2. taxonomy-location.php
- * 3. taxonomy.php
+ * 3. taxonomy-oferta-abonament.php
  *
  * The template hierarchy is filterable via the {@see 'taxonomy_template_hierarchy'} hook.
  * The template path is filterable via the {@see 'taxonomy_template'} hook.
@@ -317,7 +317,7 @@ function get_taxonomy_template() {
 		$templates[] = "taxonomy-$taxonomy-{$term->slug}.php";
 		$templates[] = "taxonomy-$taxonomy.php";
 	}
-	$templates[] = 'taxonomy.php';
+	$templates[] = 'taxonomy-oferta-abonament.php';
 
 	return get_query_template( 'taxonomy', $templates );
 }

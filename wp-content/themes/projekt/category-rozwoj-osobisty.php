@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section class="container">
 
-	<article id="frontPage" >
+	<article class="articlePage" >
 		<?php if (have_posts() ) : while ( have_posts() ) :    the_post(); ?>
 			<!-- post -->
 			<div>
@@ -23,9 +23,10 @@
 			<!-- no posts found -->
 		<?php endif; ?>
 	</article>
+
 		<div class="pagination">
-		<?php post_pagination(); ?>
-			</div>
+			<?php post_pagination(); ?>
+		</div>
 
 </section>
 <?php get_footer(); ?>

@@ -21,7 +21,7 @@
 
 	</div>
 <section class="container">
-	<article id="frontPage" >
+	<article class="frontPage" >
 		<?php
 			$develop = new WP_Query([
 				'post_type' => 'post',

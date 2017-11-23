@@ -2,11 +2,11 @@
 
 function oferta_init() {
 	register_taxonomy( 'oferta', array( 'telefon' ), array(
-		'hierarchical'      => false,
+		'hierarchical'      => true,
 		'public'            => true,
 		'show_in_nav_menus' => true,
 		'show_ui'           => true,
-		'show_admin_column' => false,
+		'show_admin_column' => true,
 		'query_var'         => true,
 		'rewrite'           => true,
 		'capabilities'      => array(

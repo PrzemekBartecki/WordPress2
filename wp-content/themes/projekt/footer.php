@@ -2,7 +2,9 @@
 
 		<section class="container">
 
-			tu coś jest
+			<p>Copyright © 2017</p>
+			<p>Projekt i wykonanie: <u>Przemysław Bartecki</u>.</p>
+			<p>Wszystkie prawa zastrzeżone.</p>
 
 		</section>
 

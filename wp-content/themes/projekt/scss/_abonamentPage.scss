@@ -1,0 +1,31 @@
+.abonamentPage {
+  display: flex;
+  justify-content: space-between;
+  margin:10px 0px;
+  div {
+	background-color: ghostwhite;
+	border: 2px solid #CFDDE5;
+	width:24%;
+	box-sizing: border-box;
+	h2 {
+	  text-align: center;
+	}
+	.thePostThum {
+	  max-width: 100%;
+	  height: auto;
+	}
+	a{
+	  display: block;
+	  border-radius: 15px;
+	  width:30%;
+	  background-color: floralwhite;
+	  margin:5px;
+	  padding:10px;
+	  border:2px solid #640404;
+	  color:#640404;
+	  text-decoration: none;
+	  text-align: center;
+	  font-weight: 700;
+	}
+  }
+}
