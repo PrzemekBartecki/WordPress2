@@ -32,7 +32,13 @@
 	}(document, 'script', 'facebook-jssdk'));
 </script>
 <header id="leftMenu">
+	<div class="nav-toggle">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
 	<nav>
+
 	<section class="container">
 
 				<?php wp_nav_menu(['menu' => 'leftmenu']); ?>

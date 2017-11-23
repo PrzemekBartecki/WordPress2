@@ -4,7 +4,6 @@
 html{
   overflow-x: hidden;
 }
-
 header{
   width: 100%;
   height:6vh;
@@ -18,12 +17,16 @@ header{
   width: 100%;
   box-sizing: border-box;
   }
-
 #leftMenu {
   position: fixed;
   width:100%;
 }
+//====== Potrzebne do odpowiedniego efektu animacji ======
+.menu-leftmenu-container{
+  transition:1s ease-in-out all;
+}
 
+//====== menu głowne ======
 #menu-leftmenu {
   display: flex;
   justify-content: space-between;
@@ -46,14 +49,37 @@ header{
 	}
   }
 }
+
+//====== media query ======
+@media only screen and (max-width:640px) {
+  .menu-leftmenu-container{
+	margin-top:50px;
+	margin-left:-17px;
+	transform: translate(-50%);
+  }
+  #menu-leftmenu {
+	display: flex;
+	flex-direction: column;
+	li {
+	  	  a {
+		padding: 1vh 0px 1vh 10px;
+		background-color: rgba(0, 0, 128, 1);
+		width: 25%;
+	  }
+	}
+  }
+
+}
+
+//====== odstęp pod menu by nic na nie wchodziło ======
 #space {
   height:6vh;
 }
 
+//====== pod menu ======
 .sub-menu {
   display: none;
 }
-
 #menu-leftmenu {
 .menu-item-has-children {
   position: relative;
@@ -67,14 +93,12 @@ header{
 	  margin: 0;
 	  padding: 0;
 	  border-radius: 15px;
-	  //background-color: floralwhite;
 	  li {
 		display: block;
 		border-radius: 15px;
 		background-color: floralwhite;
 		margin:0px 0px 10px 0;
 		border:2px solid #640404;
-
 		a {
 		  padding: 15px;
 		  display: block;
@@ -101,8 +125,8 @@ strong a{
   font-weight: 700;
 }
 
+//====== paginacja ======
 .pagination {
-
   a {
 	display: inline-block;
 	border-radius: 15px;
@@ -114,7 +138,6 @@ strong a{
 	text-decoration: none;
 	text-align: center;
 	font-weight: 700;
-
 }
 	span.page-numbers {
 	  display: inline-block;
@@ -132,4 +155,28 @@ strong a{
 
 }
 
-
+//====== hamburger ======
+.nav-toggle {
+  display:none;
+  @media only screen and (max-width:640px) {
+	display:block;
+  }
+  width:55px;
+  height:55px;
+  border:none;
+  background:transparent;
+  cursor: pointer;
+  float: right;
+}
+.nav-toggle span {
+  width:70%;
+  margin:6px auto;
+  height:5px;
+  background:#000;
+  display:block;
+  border-radius: 2px;
+}
+.show{
+  transform: translate( 1%);
+  right:0;
+}

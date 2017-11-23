@@ -10,6 +10,8 @@ jQuery( document ).ready(function() {
 		adaptiveHeight: true
 	});
 
-
+jQuery('.nav-toggle').click(function(){
+	jQuery('.menu-leftmenu-container').toggleClass("show");
+});
 
 });
