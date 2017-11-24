@@ -68,6 +68,13 @@ header{
 	  }
 	}
   }
+  #menu-leftmenu {
+	.menu-item-has-children {
+
+	  &:hover {
+		.sub-menu {
+
+		  left: 50%;
 
 }
 
