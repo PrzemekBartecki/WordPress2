@@ -10,7 +10,7 @@
 				if ( has_post_thumbnail() )
 					the_post_thumbnail();
 				else
-					echo '<img class="thePostThum" src="' . trailingslashit( get_stylesheet_directory_uri() ) . 'img/body.jpg' . '" alt="" />';
+					echo '<img class="thePostThum" src="' . trailingslashit( get_stylesheet_directory_uri() ) . 'img/body.jpg' . '" alt="domyślny obrazek" />';
 				?>
 				<p><?php the_excerpt();?></p>
 				<a href="<?php the_permalink(); ?>">Czytaj więcej</a>
