@@ -20,6 +20,7 @@
 			<!-- post navigation -->
 		<?php else: ?>
 			<!-- no posts found -->
+		<?php endif; ?>
 	</article>
 
 		<div class="pagination">
