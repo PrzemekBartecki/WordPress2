@@ -21,7 +21,7 @@
 			<!-- post navigation -->
 		<?php else: ?>
 			<!-- no posts found -->
-		<?php endif; ?>
+		cc
 	</article>
 
 		<div class="pagination">
