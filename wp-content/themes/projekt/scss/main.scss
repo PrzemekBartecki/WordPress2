@@ -43,7 +43,6 @@ body{
       float: left;
       padding:15px 15px 15px 0px;
     }
-
   }
 //===== Page o FM MOBILE =====
     #fmMobile{
@@ -98,6 +97,11 @@ div.loop{
 section.navPost{
   display:flex;
   justify-content: space-between;
+  margin: 15px 0px;
+  a{
+    display: inline-block;
+    width:100%;
+  }
 }
 
 footer {
@@ -109,6 +113,9 @@ footer {
     justify-content: space-around;
     align-items: center;
     color: white;
+    a{
+      color:white;
+    }
   }
 }
 

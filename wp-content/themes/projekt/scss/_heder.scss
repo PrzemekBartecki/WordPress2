@@ -67,9 +67,7 @@ header{
 	li{
 	  display: block;
 	  a{
-
 		text-align: center;
-
 	  }
 	}
   }
@@ -115,7 +113,6 @@ header{
 		  color: #640404;
 		  text-align: center;
 		  @media only screen and (max-width:640px){
-
 			text-align: center;
 		  }
 		}
@@ -141,8 +138,11 @@ strong a{
 
 //====== paginacja ======
 .pagination {
+  display: flex;
+  justify-content: center;
+  margin:15px 0px;
   a {
-	display: inline-block;
+	display: block;
 	border-radius: 15px;
 	background-color: floralwhite;
 	margin: 5px;
@@ -199,5 +199,5 @@ strong a{
   #menu-leftmenu  li {
 	width:180px;
 	background-color: rgb(0, 0, 128);
-  }
+    }
   }

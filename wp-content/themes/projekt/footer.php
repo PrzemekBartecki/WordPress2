@@ -1,9 +1,9 @@
 <footer >
 
-		<section class="container">
+		<section class="container ">
 
 			<p>Copyright © 2017</p>
-			<p>Projekt i wykonanie: <u>Przemysław Bartecki</u>.</p>
+			<p>Projekt i wykonanie: <a href="https://github.com/PrzemekBartecki" title="profil GitHub"> Przemysław Bartecki.</a></p>
 			<p>Wszystkie prawa zastrzeżone.</p>
 
 		</section>
