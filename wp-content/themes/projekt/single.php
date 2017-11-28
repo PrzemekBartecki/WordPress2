@@ -7,10 +7,10 @@
 			<div class="fb-like" data-href="http://localhost/projekt/" data-width="400px" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 				<section class="navPost">
 				<div>
-					<strong><?php previous_post_link();?></strong>
+					<strong><?php previous_post_link( '<strong>%link</strong>');?></strong>
 				</div>
 				<div>
-					<strong><?php next_post_link();?></strong>
+					<strong><?php next_post_link( '<strong>%link</strong>');?></strong>
 				</div>
 
 			</section>
