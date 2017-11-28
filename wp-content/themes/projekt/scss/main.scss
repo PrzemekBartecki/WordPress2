@@ -179,6 +179,12 @@ footer {
   }
 }
 
+@media only screen and (max-width:400px) {
+  #mainImg {
+    background-position: center 15px;
+  }
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */

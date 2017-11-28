@@ -57,8 +57,9 @@ header{
 @media only screen and (max-width:640px) {
   .menu-leftmenu-container {
 	margin-top: 50px;
-	margin-left: -17px;
-	transform: translate(-52%);
+	margin-right: -65px;
+	float: right;
+	transform: translate(158%);
   }
   #menu-leftmenu {
 	display: flex;
@@ -191,7 +192,7 @@ strong a{
 }
 .show{
   transform: translate(1%);
-  right: 0;
+  left: 0;
 }
 
 @media only screen and (max-width:640px){
