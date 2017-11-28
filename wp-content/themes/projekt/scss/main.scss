@@ -15,7 +15,7 @@ body{
 #mainImg {
   background-image: url("../img/mainImg.png");
   width: 1800px;
-  //height: 600px;
+  height: auto;
   max-width:100%;
   background-repeat:no-repeat;
   background-position: center -55px;
@@ -164,7 +164,7 @@ footer {
     width: 100%;
     font-size: 1rem;
     line-height: 30px;
-    padding: 0px 12px;
+    background-position: center 60px;
   }
   .articlePage div {
     margin: 0px;
