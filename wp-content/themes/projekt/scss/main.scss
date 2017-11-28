@@ -76,7 +76,6 @@ body{
   .frontPage {
     display: flex;
     justify-content: space-between;
-    //flex-wrap: wrap;
     div {
       background-color: ghostwhite;
       border: 2px solid #CFDDE5;
@@ -176,6 +175,9 @@ footer {
       width: 49%;
       margin: 5px 0px 10px 0px;
     }
+  }
+  .frontPage{
+    flex-wrap: wrap;
   }
 }
 

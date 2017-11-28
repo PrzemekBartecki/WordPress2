@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section class="container">
 
-	<article class="articlePage" >
+	<article class="articlePage">
 		<?php if (have_posts() ) : while ( have_posts() ) :    the_post(); ?>
 			<!-- post -->
 			<div>
@@ -15,20 +15,16 @@
 				<p><?php the_excerpt();?></p>
 				<a href="<?php the_permalink(); ?>">Czytaj więcej</a>
 				<?php wp_reset_postdata(); ?>
-
 			</div>
 		<?php endwhile; ?>
 			<!-- post navigation -->
 		<?php else: ?>
 			<!-- no posts found -->
-		cc
 	</article>
 
 		<div class="pagination">
 			<?php post_pagination(); ?>
 		</div>
 
-</section>
+	</section>
 <?php get_footer(); ?>
-
-
