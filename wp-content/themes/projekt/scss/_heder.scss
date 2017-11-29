@@ -7,14 +7,13 @@ html, body {
  }
 
 html{
-  height:100% // dodane
+  //height:100% // dodane
 
 }
 body{
   position: relative;
-  margin: 0;
-  padding-bottom: 6vh;
-  min-height: 100%;//dodadane
+  min-height: calc(100vh - 7vh);
+  padding-bottom: 34px;
   font-family: 'Ubuntu Condensed', sans-serif;
 
   }
@@ -28,8 +27,7 @@ header{
 }
 .container {
   max-width: 1200px;
-  margin: 0 auto;
- // width: 100%;
+  margin: 0 auto 34px auto;
   box-sizing: border-box;
   }
 #leftMenu {
