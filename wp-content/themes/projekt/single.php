@@ -4,8 +4,9 @@
 			<!-- post -->
 			<h2><?php the_title(); ?></h2>
 			<?php the_content(); ?>
-			<div class="fb-like" data-href="http://localhost/projekt/" data-width="400px" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-				<section class="navPost">
+			<div class="fb-like" data-href="<?php the_permalink() ?>" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
+			<section class="navPost">
 				<div>
 					<strong><?php previous_post_link( '<strong>%link</strong>');?></strong>
 				</div>
