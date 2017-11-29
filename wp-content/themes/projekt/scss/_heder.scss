@@ -21,7 +21,7 @@ body{
 header{
   width: 100%;
   height:6vh;
-  background-color: rgba(0, 0, 128, 0.79);
+  background-color: rgba(#55967e, 0.79);
   position: relative;
   z-index: 9999999;
 }
@@ -116,14 +116,14 @@ header{
 	  li {
 		display: block;
 		border-radius: 15px;
-		background-color: floralwhite;
+		background-color: #e4e7ec; //floralwhite;
 
 		margin:0px 0px 10px 0;
-		border:2px solid #640404;
+		border:2px solid #263959; //640404;
 		a {
 		  padding: 15px;
 		  display: block;
-		  color: #640404;
+		  color: #263959;  //#640404;
 		  text-align: center;
 		  @media only screen and (max-width:640px){
 			text-align: center;
@@ -139,11 +139,11 @@ strong a{
   display: block;
   border-radius: 15px;
   width:30%;
-  background-color: floralwhite;
   margin:5px;
   padding:10px;
-  border:2px solid #640404;
-  color:#640404;
+  background-color: #e4e7ec; //floralwhite;
+  border:2px solid #263959; //#640404;
+  color: #263959; //#640404;
   text-decoration: none;
   text-align: center;
   font-weight: 700;
@@ -157,11 +157,11 @@ strong a{
   a {
 	display: block;
 	border-radius: 15px;
-	background-color: floralwhite;
+	background-color: #e4e7ec; // floralwhite;
 	margin: 5px;
 	padding: 10px;
-	border: 2px solid #640404;
-	color: #640404;
+	border: 2px solid #6d819c; //#640404;
+	color: #6d819c; //#640404;
 	text-decoration: none;
 	text-align: center;
 	font-weight: 700;
@@ -170,11 +170,11 @@ strong a{
 	  display: inline-block;
 	  border-radius: 15px;
 	  width: 30%;
-	  background-color: rgba(0, 0, 128, 0.5);
+	  background-color: rgba(#e4e7ec, 0.5);//rgba(0, 0, 128, 0.5);
 	  margin: 5px;
 	  padding: 10px;
-	  border: 2px solid #640404;
-	  color: #640404;
+	  border: 2px solid #263959;
+	  color: #263959;
 	  text-decoration: none;
 	  text-align: center;
 	  font-weight: 700;
@@ -211,6 +211,6 @@ strong a{
 @media only screen and (max-width:640px){
   #menu-leftmenu  li {
 	width:180px;
-	background-color: rgb(0, 0, 128);
+	background-color:#559667; //rgb(0, 0, 128);
     }
   }

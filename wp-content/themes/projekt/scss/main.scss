@@ -56,11 +56,12 @@
     display: flex;
     justify-content: space-between;
     div {
-      background-color: ghostwhite;
+      background-color: rgba(#e4e7ec,0.5); //ghostwhite;
       border: 2px solid #CFDDE5;
       margin: 5px;
       h2 {
         text-align: center;
+        color: #263959;
       }
       .thePostThum {
         max-width: 100%;
@@ -70,11 +71,11 @@
         display: block;
         border-radius: 15px;
         width:30%;
-        background-color: floralwhite;
+        background-color: #e4e7ec; //floralwhite;
         margin:5px;
         padding:10px;
-        border:2px solid #640404;
-        color:#640404;
+        border:2px solid #263959; //#640404;
+        color: #263959; //#640404;
         text-decoration: none;
         text-align: center;
         font-weight: 700;
@@ -106,7 +107,7 @@ footer {
   bottom: 0;
   left: 0;
   height: 6vh;
-  background-color: rgba(0, 0, 128, 0.79);;
+  background-color: rgba(#55967e, 0.79);
   text-align: center;
   display: flex;
   justify-content: center;
