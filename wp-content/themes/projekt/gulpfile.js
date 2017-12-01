@@ -32,12 +32,11 @@ gulp.task('sass', function () {
       }))
       .pipe(sourcemaps.init())
       .pipe(sass({
-          outputStyle: 'compressed' //nested, expanded, compact, compressed
+          outputStyle: 'nested' //nested, expanded, compact, compressed
       }))
-    //   .pipe(autoprefixer({
-    //       browsers: ['last 2 versions'],
-    //       cascade: false
-    //   }))
+      .pipe(autoprefixer({ browsers: ['last 2 versions'],
+          cascade: false
+      }))
       .pipe(sourcemaps.write('.'))
       .pipe(gulp.dest('./css'))
       .pipe(browserSync.stream({match: '**/*.css'}));
@@ -55,14 +54,14 @@ gulp.task('js', function(){
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./js'))
     .pipe(browserSync.stream({match: '**/*.js'}));
-    // .pipe(browserSync.reload())
+    //.pipe(browserSync.reload());
 });
 
 
 gulp.task('watch', function() {
   gulp.watch('./scss/**/*.scss', ['sass']);
   gulp.watch('./js/**/*.js', ['js']);
-  //gulp.watch('./*.html').on('change', browserSync.reload);
+  gulp.watch('./*.html').on('change', browserSync.reload);
 });
 
 
