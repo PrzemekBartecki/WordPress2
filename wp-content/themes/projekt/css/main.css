@@ -274,7 +274,7 @@ div.kontakt {
 .wpcf7-form {
   margin: 0 auto;
   display: block;
-  width: 400px; }
+  max-width: 400px; }
   .wpcf7-form input, .wpcf7-form textarea {
     width: 100%;
     margin: 0 auto; }
