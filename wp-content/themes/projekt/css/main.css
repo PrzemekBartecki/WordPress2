@@ -269,7 +269,7 @@ div.kontakt {
   box-sizing: border-box;
   background-image: url("../img/cloud.jpg");
   border-radius: 15px;
-  padding-top: 40px; }
+  padding: 132px 0; }
 
 .wpcf7-form {
   margin: 0 auto;
