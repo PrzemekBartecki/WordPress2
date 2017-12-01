@@ -21,12 +21,19 @@ header {
   background-color: rgba(85, 150, 126, 0.79);
   position: relative;
   z-index: 9999999; }
+  @media only screen and (max-width: 640px) {
+    header {
+      height: 50px; } }
 
 .container {
   max-width: 1200px;
-  margin: 0 auto 34px auto;
+  margin: 0 auto 45px auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+  .container h2 {
+    text-align: center; }
+  .container p, .container ul, .container h3 {
+    padding: 0 15px; }
 
 #leftMenu {
   position: fixed;
@@ -85,6 +92,9 @@ header {
 
 #space {
   height: 6vh; }
+  @media only screen and (max-width: 640px) {
+    #space {
+      height: 50px; } }
 
 .sub-menu {
   display: none; }
@@ -171,7 +181,8 @@ strong a {
   border: none;
   background: transparent;
   cursor: pointer;
-  float: right; }
+  float: right;
+  margin-top: 6px; }
   @media only screen and (max-width: 640px) {
     .nav-toggle {
       display: block; } }
@@ -306,7 +317,7 @@ a:focus, a, button, input[type="submit"] {
   background-repeat: no-repeat;
   background-position: center -55px;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -387,9 +398,8 @@ section.navPost {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   margin: 15px 0px; }
   section.navPost a {
     display: inline-block;
@@ -417,7 +427,7 @@ footer {
   width: 100%; }
   @media only screen and (max-width: 640px) {
     footer {
-      height: 10vh; } }
+      height: 100px; } }
   footer a {
     color: white; }
   footer p {
