@@ -15,6 +15,9 @@ body{
   min-height: calc(100vh - 4vh);
   padding-bottom: 34px;
   font-family: 'Ubuntu Condensed', sans-serif;
+  @media only screen and (max-width:640px) {
+	padding-bottom: 62px;
+  	}
   }
 
 header{
@@ -116,7 +119,6 @@ header{
 		display: block;
 		border-radius: 15px;
 		background-color: #e4e7ec; //floralwhite;
-
 		margin:0px 0px 10px 0;
 		border:2px solid #263959; //640404;
 		a {
