@@ -47,21 +47,3 @@ endif;
 
 
 
-function moja_funckja_smtp_email( $phpmailer ) {
-
-	$phpmailer->isSMTP();
-
-	$phpmailer->Host = "smtp.gmail.com"; // Adres serwera SMTP
-	$phpmailer->Port = "465"; // Nr portu, zazwyczaj: 25|465|587
-
-	$phpmailer->SMTPAuth = true; // Autoryzacja SMTP: true|false
-	$phpmailer->SMTPSecure = "ssl"; // Typ szyfrowania, zazwyczaj: tls|ssl
-
-	$phpmailer->Username = "przemyslaw.bartecki@gmail.com"; // Nazwa użytkownika dla serwera SMTP
-	$phpmailer->Password = "przemek1988"; // Hasło użytkownika dla serwera SMTP
-
-	$phpmailer->From = "przemyslaw.bartecki@gmail.com"; // Adres e-mail nadawcy
-	$phpmailer->FromName = "Imie "; // Nazwa nadawcy
-
-}
-add_action('phpmailer_init','moja_funckja_smtp_email');
