@@ -47,9 +47,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   list-style-type: none;
   margin: 0;
   padding: 0; }
@@ -346,6 +345,8 @@ a:focus, a, button, input[type="submit"] {
   float: left;
   padding: 15px 15px 15px 0px; }
 
+*********************************
+********************************
 #fmMobile {
   margin: 2rem 0; }
 
@@ -461,7 +462,7 @@ footer {
     width: 100%;
     font-size: 1rem;
     line-height: 30px;
-    background-position: center -36px; }
+    background-position: center -99px; }
   .articlePage div {
     margin: 0px;
     width: 100%; }
@@ -475,10 +476,6 @@ footer {
   .frontPage {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; } }
-
-@media only screen and (max-width: 400px) {
-  #mainImg {
-    background-position: center 15px; } }
 
 .videoWrapper {
   position: relative;
