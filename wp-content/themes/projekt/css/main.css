@@ -393,7 +393,8 @@ a:focus, a, button, input[type="submit"] {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  margin: 10px 0px; }
 
 div.loop {
   margin: 0 auto; }
