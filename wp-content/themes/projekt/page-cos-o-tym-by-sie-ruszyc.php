@@ -5,7 +5,7 @@
 		  <!-- post -->
 			<?php the_content();?>
 	<div class="videoWrapper">
-		<iframe width="640" height="480" src="https://www.youtube.com/embed/TA6ykF-WVc4?rel=0&autoplay=1" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+		<iframe width="640" height="480" src="https://www.youtube.com/embed/TA6ykF-WVc4?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
 	</div>
 		<?php endwhile; ?>
 		  <!-- post navigation -->

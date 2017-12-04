@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a16e3ff-0625-4709-a8bf-9b20dba25a62" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js.map" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js.map" />
@@ -18,17 +18,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-cos-o-tym-by-sie-ruszyc.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-cos-o-tym-by-sie-ruszyc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/page-cos-o-tym-by-sie-ruszyc.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
-              <caret line="7" column="155" lean-forward="false" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="155" />
+              <caret line="7" column="137" lean-forward="false" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="137" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -86,8 +86,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/projekt/js/scripts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/projekt/scss/_kontakt.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/projekt/scss/_heder.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/projekt/page-cos-o-tym-by-sie-ruszyc.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/projekt/scss/main.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/projekt/page-cos-o-tym-by-sie-ruszyc.php" />
       </list>
     </option>
   </component>
@@ -291,12 +291,12 @@
       <workItem from="1512133837752" duration="1654000" />
       <workItem from="1512135974501" duration="1153000" />
       <workItem from="1512156333795" duration="2824000" />
-      <workItem from="1512387829968" duration="4545000" />
+      <workItem from="1512387829968" duration="5660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177168000" />
+    <option name="totallyTimeSpent" value="178283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="785" y="80" width="1922" height="1056" extended-state="6" />
@@ -673,18 +673,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/page-cos-o-tym-by-sie-ruszyc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="155" lean-forward="false" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="155" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="193" column="1" lean-forward="true" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/page-cos-o-tym-by-sie-ruszyc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="137" lean-forward="false" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="137" />
           <folding />
         </state>
       </provider>
