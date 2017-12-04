@@ -14,7 +14,7 @@ add_filter( 'excerpt_length', 'custom_excerpt', 999);
 function project_enqueue_script() {
 	wp_enqueue_script(
 		'main',
-		get_stylesheet_directory_uri() . '/js/app.js',
+		get_stylesheet_directory_uri() . '/js/scripts.js',
 		['jquery', 'slick'],
 		true	);
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(../slick/slick/slick.css);
 @import url(../slick/slick/slick-theme.css);
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
@@ -39,10 +40,16 @@ header {
   position: fixed;
   width: 100%; }
 
+/******************************************************************
+====== Potrzebne do odpowiedniego efektu animacji ======
+******************************************************************/
 .menu-leftmenu-container {
   -webkit-transition: 1s ease-in-out all;
   transition: 1s ease-in-out all; }
 
+/*********************************
+====== menu głowne ======
+*********************************/
 #menu-leftmenu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,6 +76,9 @@ header {
         #menu-leftmenu li a {
           width: 167px; } }
 
+/*********************************
+====== media query ======
+*********************************/
 @media only screen and (max-width: 640px) {
   .menu-leftmenu-container {
     margin-top: 50px;
@@ -89,12 +99,18 @@ header {
       #menu-leftmenu li a {
         text-align: center; } }
 
+/*********************************
+====== odstęp pod menu by nic na nie wchodziło ======
+*********************************/
 #space {
   height: 6vh; }
   @media only screen and (max-width: 640px) {
     #space {
       height: 50px; } }
 
+/*********************************
+====== pod menu ======
+*********************************/
 .sub-menu {
   display: none; }
 
@@ -128,6 +144,9 @@ header {
           #menu-leftmenu .menu-item-has-children:hover .sub-menu li a {
             text-align: center; } }
 
+/******************************************************************
+======linki w ofertach sprzedarzowych======
+******************************************************************/
 strong a {
   display: block;
   border-radius: 15px;
@@ -141,6 +160,9 @@ strong a {
   text-align: center;
   font-weight: 700; }
 
+/*********************************
+====== paginacja ======
+*********************************/
 .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,6 +195,9 @@ strong a {
     text-align: center;
     font-weight: 700; }
 
+/*********************************
+====== hamburger ======
+*********************************/
 .nav-toggle {
   display: none;
   width: 55px;
@@ -338,16 +363,13 @@ a:focus, a, button, input[type="submit"] {
   word-spacing: 10px; }
 
 .about p {
-  margin: 15px 10px 5px 0px;
+  margin: 15px 10px 5px 0;
   font-size: 18px; }
 
 .about img {
-  float: left;
-  padding: 15px 15px 15px 0px; }
+  float: left; }
 
-*********************************
-********************************
-#fmMobile {
+********************************#fmMobile {
   margin: 2rem 0; }
 
 #pageMobile {
@@ -394,7 +416,7 @@ a:focus, a, button, input[type="submit"] {
 img {
   max-width: 100%;
   height: auto;
-  margin: 10px 0px; }
+  margin: 11px 16px; }
 
 div.loop {
   margin: 0 auto; }
