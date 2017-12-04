@@ -281,6 +281,9 @@ div.kontakt {
   background-image: url("../img/cloud.jpg");
   border-radius: 15px;
   padding: 132px 0; }
+  @media only screen and (max-width: 640px) {
+    div.kontakt {
+      margin: 10px auto 48px auto; } }
 
 .wpcf7-form {
   margin: 0 auto;
