@@ -12,7 +12,7 @@ const uglify = require('gulp-uglify');
 const handleError = function(err) {
   console.log(gutil.colors.red(err.toString()));
   this.emit('end');
-}
+};
 
 gulp.task('server', function() {
   browserSync.init({
@@ -39,7 +39,7 @@ gulp.task('sass', function () {
       }))
       .pipe(sourcemaps.write('.'))
       .pipe(gulp.dest('./css'))
-      .pipe(browserSync.stream({match: '**/*.css'}));
+     // .pipe(browserSync.stream({match: '**/*.css'}));
 });
 
 
@@ -53,7 +53,7 @@ gulp.task('js', function(){
     .pipe(uglify())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./js'))
-    .pipe(browserSync.stream({match: '**/*.js'}));
+    //.pipe(browserSync.stream({match: '**/*.js'}));
     //.pipe(browserSync.reload());
 });
 
