@@ -369,10 +369,16 @@ a:focus, a, button, input[type="submit"] {
   font-size: 18px; }
 
 .about img {
-  float: left; }
+  float: left;
+  margin: 10px 15px 10px 15px; }
 
-********************************#fmMobile {
+/*********************************
+//===== Page o FM MOBILE =====
+********************************/
+#fmMobile {
   margin: 2rem 0; }
+  #fmMobile img {
+    margin: 10px 15px; }
 
 #pageMobile {
   margin-bottom: 2rem; }
@@ -417,8 +423,7 @@ a:focus, a, button, input[type="submit"] {
 
 img {
   max-width: 100%;
-  height: auto;
-  margin: 10px 15px; }
+  height: auto; }
 
 div.loop {
   margin: 0 auto; }
