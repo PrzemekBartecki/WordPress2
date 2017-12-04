@@ -288,11 +288,11 @@ strong a {
       display: block;
       border-radius: 15px;
       width: 30%;
-      background-color: floralwhite;
+      background-color: #e4e7ec;
       margin: 5px;
       padding: 10px;
-      border: 2px solid #640404;
-      color: #640404;
+      border: 2px solid #263959;
+      color: #263959;
       text-decoration: none;
       text-align: center;
       font-weight: 700; }
