@@ -2,13 +2,13 @@
 
 <section class="container">
 
-	<header id="kreoMenu" >
+	<section class="likeHeader" id="kreoMenu" >
 		<div class="menuKreatywnosc">
 			<a href="#wstep"> Wstęp </a>
 			<a href="#zasady"> Q kreatywnosci </a>
 			<a href="#etapy"> Etapy procesu twórczego </a>
 		</div>
-	</header>
+	</section>
 	<div class="space"></div>
 	<!--	***************************************************-->
 	<!--	================ pętla WP =========================-->

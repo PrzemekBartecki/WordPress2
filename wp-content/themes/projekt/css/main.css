@@ -338,6 +338,12 @@ div.kontakt {
 a:focus, a, button, input[type="submit"] {
   outline: 0; }
 
+.likeHeader {
+  width: 100%;
+  height: 6vh;
+  position: relative;
+  z-index: 9999999; }
+
 #kreoMenu {
   position: fixed;
   width: 100%; }
