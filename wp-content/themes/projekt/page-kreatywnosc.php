@@ -10,14 +10,15 @@
 		</div>
 	</section>
 	<div class="space"></div>
-<!--	***************************************************-->
-<!--	================ pętla WP =========================-->
-<!--	***************************************************-->
-	<div class="flex">
+	<!--	***************************************************-->
+	<!--	================ pętla WP =========================-->
+	<!--	***************************************************-->
+	<div class="about">
 		<?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
 			<!-- post -->
 			<?php the_post_thumbnail();?>
 			<?php the_content();?>
+			<div class="fb-like" data-href="http://165.227.148.90/kreatywnosc/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 		<?php endwhile; ?>
 			<!-- post navigation -->
 		<?php else: ?>
@@ -33,15 +34,14 @@
 	</section>
 	<section class="sizeContent" id="zasady">
 
-			<h2>A tu bedzie o zasadach</h2>
+		<h2>A tu bedzie o zasadach</h2>
 	</section>
 
 	<section class="sizeContent" id="etapy">
 		<h2>Etapy procesu twórczego</h2>
 	</section>
-	<section class="like">
-		<div class="fb-like" data-href="http://165.227.148.90/kreatywnosc/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-	</section>
+
+
 </section>
 <?php get_footer(); ?>
 

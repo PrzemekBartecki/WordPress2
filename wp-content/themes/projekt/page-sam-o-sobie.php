@@ -13,13 +13,6 @@
 		<!-- no posts found -->
 	<?php endif; ?>
 
-<!--	<div class="videoWrapper">-->
-<!---->
-<!--		<iframe  src="https://www.youtube.com/embed/aSuODuxT4V0" frameborder="0" allowfullscreen></iframe>-->
-<!--	</div>-->
-
-
-
 </article>
 <?php get_footer(); ?>
 
