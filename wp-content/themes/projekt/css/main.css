@@ -386,6 +386,11 @@ a:focus, a, button, input[type="submit"] {
     border-right: 1px solid #C3423F;
     padding-top: 12vh; }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 #mainImg {
   background-image: url("../img/mainImg.png");
   width: 1800px;
@@ -419,10 +424,6 @@ a:focus, a, button, input[type="submit"] {
 .about img {
   float: left;
   margin: 10px 15px 10px 15px; }
-
-.about:before {
-  content: "";
-  clear: both; }
 
 /*********************************
 //===== Page o FM MOBILE =====
