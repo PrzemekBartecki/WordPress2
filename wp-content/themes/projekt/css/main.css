@@ -340,8 +340,7 @@ a:focus, a, button, input[type="submit"] {
 
 #kreoMenu {
   position: fixed;
-  top: 45px;
-  width: 1200px; }
+  width: 100%; }
   #kreoMenu .menuKreatywnosc {
     display: -webkit-box;
     display: -ms-flexbox;
