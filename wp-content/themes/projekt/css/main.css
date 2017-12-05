@@ -343,28 +343,27 @@ a:focus, a, button, input[type="submit"] {
   height: 6vh;
   position: relative;
   z-index: 9999999; }
-
-#kreoMenu {
-  position: fixed;
-  width: 100%; }
-  #kreoMenu .menuKreatywnosc {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    margin: 15px 0;
-    background-color: #9BC53D;
-    border-radius: 10px;
-    position: relative; }
-    #kreoMenu .menuKreatywnosc a {
-      display: block;
-      padding: 15px;
+  .likeHeader #kreoMenu {
+    position: fixed;
+    width: 100%; }
+    .likeHeader #kreoMenu .menuKreatywnosc {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 15px 0;
+      background-color: #9BC53D;
       border-radius: 10px;
-      text-decoration: none;
-      color: #211A1E;
-      font-size: 20px;
-      font-weight: 600; }
+      position: relative; }
+      .likeHeader #kreoMenu .menuKreatywnosc a {
+        display: block;
+        padding: 15px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #211A1E;
+        font-size: 20px;
+        font-weight: 600; }
 
 .sizeContent {
   min-height: calc(100vh - 10vh);
