@@ -41,7 +41,6 @@
 	<section class="sizeContent" id="etapy">
 		<h2>Etapy procesu twórczego</h2>
 	</section>
-
 </section>
 <?php get_footer(); ?>
 
