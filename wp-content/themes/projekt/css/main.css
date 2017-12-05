@@ -390,7 +390,7 @@ a:focus, a, button, input[type="submit"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .flex img {
+  .flex p:first-child {
     -webkit-box-flex: 2;
     -ms-flex-positive: 2;
     flex-grow: 2; }

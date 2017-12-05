@@ -54,7 +54,7 @@
 }
 .flex{
   display:flex;
-  img{
+  p:first-child{
 	flex-grow: 2;
   }
 }
