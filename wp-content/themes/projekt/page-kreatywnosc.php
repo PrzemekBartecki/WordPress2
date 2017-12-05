@@ -39,7 +39,9 @@
 	<section class="sizeContent" id="etapy">
 		<h2>Etapy procesu twórczego</h2>
 	</section>
-	<div class="fb-like" data-href="http://165.227.148.90/kreatywnosc/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+	<section class="like">
+		<div class="fb-like" data-href="http://165.227.148.90/kreatywnosc/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+	</section>
 </section>
 <?php get_footer(); ?>
 

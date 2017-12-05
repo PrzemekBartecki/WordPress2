@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a16e3ff-0625-4709-a8bf-9b20dba25a62" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/page-kreatywnosc.php" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/page-kreatywnosc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_kreatywnosc.scss" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_kreatywnosc.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +28,8 @@
           <file leaf-file-name="page-kreatywnosc.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/page-kreatywnosc.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="41" column="177" lean-forward="false" selection-start-line="41" selection-start-column="177" selection-end-line="41" selection-end-column="177" />
+                <state relative-caret-position="437">
+                  <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -332,12 +329,12 @@
       <workItem from="1512408698117" duration="7678000" />
       <workItem from="1512464410606" duration="1158000" />
       <workItem from="1512476213423" duration="5512000" />
-      <workItem from="1512487169894" duration="9583000" />
+      <workItem from="1512487169894" duration="9959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207710000" />
+    <option name="totallyTimeSpent" value="208086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
@@ -720,8 +717,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/page-kreatywnosc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="41" column="177" lean-forward="false" selection-start-line="41" selection-start-column="177" selection-end-line="41" selection-end-column="177" />
+        <state relative-caret-position="437">
+          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding />
         </state>
       </provider>
