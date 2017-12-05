@@ -390,10 +390,8 @@ a:focus, a, button, input[type="submit"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .flex p:first-child {
-    -webkit-box-flex: 2;
-    -ms-flex-positive: 2;
-    flex-grow: 2; }
+  .flex p {
+    width: 100%; }
 
 #mainImg {
   background-image: url("../img/mainImg.png");
