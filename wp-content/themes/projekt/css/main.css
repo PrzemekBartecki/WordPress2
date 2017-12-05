@@ -19,7 +19,6 @@ body {
 header {
   width: 100%;
   height: 6vh;
-  background-color: rgba(85, 150, 126, 0.79);
   position: relative;
   z-index: 9999999; }
   @media only screen and (max-width: 640px) {
@@ -40,7 +39,8 @@ header {
 
 #leftMenu {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  background-color: rgba(85, 150, 126, 0.79); }
 
 /******************************************************************
 ====== Potrzebne do odpowiedniego efektu animacji ======
@@ -338,15 +338,10 @@ div.kontakt {
 a:focus, a, button, input[type="submit"] {
   outline: 0; }
 
-.likeHeader {
-  width: 1200px;
-  height: 6vh;
-  position: relative;
-  z-index: 9999999; }
-
 #kreoMenu {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  max-width: 1200px; }
   #kreoMenu .menuKreatywnosc {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -23,7 +23,7 @@ header{
   	@media only screen and (max-width:640px) {
 		height:50px;
   }
-  	background-color: rgba(#55967e, 0.79);
+  	//background-color: rgba(#55967e, 0.79);
   	position: relative;
   	z-index: 9999999;
 }
@@ -44,6 +44,7 @@ header{
 #leftMenu {
   position: fixed;
   width:100%;
+  background-color: rgba(#55967e, 0.79);
 }
 /******************************************************************
 ====== Potrzebne do odpowiedniego efektu animacji ======

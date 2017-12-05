@@ -2,7 +2,7 @@
 
 <section class="container">
 
-	<section class="likeHeader" id="kreoMenu" >
+	<section id="kreoMenu" >
 		<div class="menuKreatywnosc">
 			<a href="#wstep"> Wstęp </a>
 			<a href="#zasady"> Q kreatywnosci </a>
