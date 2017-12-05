@@ -36,7 +36,7 @@ header {
   .container p, .container ul, .container h3 {
     padding: 0 15px; }
   .container p {
-    line-height: 1.5em; }
+    line-height: 1.75em; }
 
 #leftMenu {
   position: fixed;
@@ -338,37 +338,53 @@ div.kontakt {
 a:focus, a, button, input[type="submit"] {
   outline: 0; }
 
-.menuKreatywnosc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  margin: 15px 0; }
-  .menuKreatywnosc a {
-    display: block; }
+#kreoMenu {
+  position: fixed;
+  top: 45px;
+  width: 1200px; }
+  #kreoMenu .menuKreatywnosc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 15px 0;
+    background-color: #9BC53D;
+    border-radius: 10px;
+    position: relative; }
+    #kreoMenu .menuKreatywnosc a {
+      display: block;
+      padding: 15px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #211A1E;
+      font-size: 20px;
+      font-weight: 600; }
 
 .sizeContent {
   min-height: calc(100vh - 10vh);
-  background-color: red; }
-
-#wstep {
-  color: red;
-  min-height: 100vh; }
-
-#kreoMenu {
-  position: fixed;
-  width: 1200px; }
-
-.creative {
-  background-color: yellow; }
-
-section.menu {
-  width: 100%;
-  height: 6vh;
-  background-color: yellow;
-  position: relative;
-  z-index: 9999999; }
+  border-radius: 15px; }
+  .sizeContent#wstep {
+    color: blue;
+    border-top: 9px solid #5bc0eb;
+    border-bottom: 9px solid #5bc0eb;
+    border-left: 1px solid #5bc0eb;
+    border-right: 1px solid #5bc0eb;
+    padding-top: 12vh; }
+  .sizeContent#zasady {
+    color: red;
+    border-top: 9px solid #fde74c;
+    border-bottom: 9px solid #fde74c;
+    border-left: 1px solid #fde74c;
+    border-right: 1px solid #fde74c;
+    padding-top: 12vh; }
+  .sizeContent#etapy {
+    color: blueviolet;
+    border-top: 9px solid #C3423F;
+    border-bottom: 9px solid #C3423F;
+    border-left: 1px solid #C3423F;
+    border-right: 1px solid #C3423F;
+    padding-top: 12vh; }
 
 #mainImg {
   background-image: url("../img/mainImg.png");
