@@ -18,7 +18,7 @@
 			<!-- post -->
 			<?php the_post_thumbnail();?>
 			<?php the_content();?>
-			<div class="fb-like" data-href="http://165.227.148.90/kreatywnosc/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
 		<?php endwhile; ?>
 			<!-- post navigation -->
 		<?php else: ?>
