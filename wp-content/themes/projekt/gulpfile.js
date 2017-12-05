@@ -6,8 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 const plumber = require('gulp-plumber');
 const gutil = require('gulp-util');
-const concat = require('gulp-concat');
-const uglify = require('gulp-uglify');
+
 
 const handleError = function(err) {
   console.log(gutil.colors.red(err.toString()));
@@ -39,33 +38,20 @@ gulp.task('sass', function () {
       }))
       .pipe(sourcemaps.write('.'))
       .pipe(gulp.dest('./css'))
-     // .pipe(browserSync.stream({match: '**/*.css'}));
+      .pipe(browserSync.stream({match: '**/*.css'}));
 });
 
 
-gulp.task('js', function(){
-    return gulp.src('./js/**/*.js')
-    .pipe(plumber({
-         errorHandler: handleError
-    }))
-    .pipe(sourcemaps.init())
-    .pipe(concat('scripts.js'))
-    .pipe(uglify())
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./js'))
-    //.pipe(browserSync.stream({match: '**/*.js'}));
-    //.pipe(browserSync.reload());
-});
+
 
 
 gulp.task('watch', function() {
   gulp.watch('./scss/**/*.scss', ['sass']);
-  gulp.watch('./js/**/*.js', ['js']);
   gulp.watch('./*.html').on('change', browserSync.reload);
 });
 
 
 gulp.task('default', function() {
   console.log('====== Rozpoczynam prace =======');
-  gulp.start(['sass','js', 'watch', 'server']);
+  gulp.start(['sass', 'watch', 'server']);
 });

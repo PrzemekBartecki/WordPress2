@@ -47,6 +47,6 @@
 	</section>
 
 </header>
-<div id="space"></div>
+<div class="space"></div>
 
 
