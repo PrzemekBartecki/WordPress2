@@ -10,7 +10,6 @@
 		</div>
 	</section>
 	<div class="space"></div>
-
 <!--	***************************************************-->
 <!--	================ pętla WP =========================-->
 <!--	***************************************************-->
@@ -18,7 +17,7 @@
 		<?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
 			<!-- post -->
 			<?php the_post_thumbnail();?>
-			<p><?php the_content();?></p>
+			<?php the_content();?>
 		<?php endwhile; ?>
 			<!-- post navigation -->
 		<?php else: ?>
