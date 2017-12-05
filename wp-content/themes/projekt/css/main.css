@@ -420,7 +420,7 @@ a:focus, a, button, input[type="submit"] {
   float: left;
   margin: 10px 15px 10px 15px; }
 
-.about:after {
+.about:before {
   content: "";
   clear: both; }
 
