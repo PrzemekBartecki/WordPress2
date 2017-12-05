@@ -54,6 +54,9 @@
 }
 .flex{
   display:flex;
+  img{
+	flex-grow: 2;
+  }
 }
 
 
