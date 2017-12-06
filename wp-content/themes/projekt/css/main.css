@@ -386,6 +386,19 @@ a:focus, a, button, input[type="submit"] {
     border-right: 1px solid #C3423F;
     padding-top: 12vh; }
 
+.contentSize {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto; }
+
+.about2 p {
+  margin: 30px 10px 5px 0;
+  font-size: 18px; }
+
+.about2 img {
+  float: left;
+  margin: 10px 15px 10px 15px; }
+
 #mainImg {
   background-image: url("../img/mainImg.png");
   width: 1800px;
