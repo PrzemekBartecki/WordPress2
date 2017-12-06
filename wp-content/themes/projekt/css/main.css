@@ -386,16 +386,16 @@ a:focus, a, button, input[type="submit"] {
     border-right: 1px solid #C3423F;
     padding-top: 12vh; }
 
-article.sizeWstep {
+.readTxt {
   width: 100%;
   max-width: 750px;
   margin: 0 auto; }
 
-.post p {
+.wpisKreatywnosc p {
   margin: 30px 10px 5px 0;
   font-size: 18px; }
 
-.post img {
+.wpisKreatywnosc img {
   float: left;
   margin: 10px 15px 10px 15px; }
 

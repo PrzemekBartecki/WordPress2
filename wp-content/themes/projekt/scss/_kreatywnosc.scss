@@ -25,14 +25,12 @@
 .sizeBlock {
  	 min-height: calc(100vh - 10vh);
      border-radius: 15px;
-
   &#wstep {
 	color: blue;
 	border-top:9px solid #5bc0eb;
 	border-bottom:9px solid #5bc0eb;
 	border-left: 1px solid #5bc0eb;
 	border-right: 1px solid #5bc0eb;
-
 	padding-top: 12vh;
   }
   &#zasady {
@@ -52,13 +50,13 @@
 	padding-top: 12vh;
   }
 }
-article.sizeWstep{
+.readTxt {
   width:100%;
   max-width:750px;
   margin:0 auto;
 }
 
-.post {
+.wpisKreatywnosc {
   p{
 	margin: 30px 10px 5px 0;
 	font-size: 18px;

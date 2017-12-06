@@ -14,7 +14,7 @@
 	<!--	***************************************************-->
 	<!--	================ pętla WP =========================-->
 	<!--	***************************************************-->
-	<div class="post">
+	<div class="wpisKreatywnosc">
 		<?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
 			<!-- post -->
 			<?php the_post_thumbnail();?>
@@ -30,7 +30,7 @@
 
 	<section class="sizeBlock" id="wstep">
 		<p>Tekst wprowadzajcy do rkeatynwsoci</p>
-		<article class="sizeWstep">
+		<article class="readTxt">
 			<p>
 				Paul Johnson w jednej ze swoich książek pisze, Skoro wszyscy jesteśmy obrazem Boga, każdy z nas ma
 				cechy twórcze i cały problem polega na tym, jak je wydobyć. Dla osób które nie wierzą w istnieje
@@ -88,12 +88,12 @@
 		</article>
 	</section>
 
-	<section class="sizeContent" id="zasady">
+	<section class="sizeBlock" id="zasady">
 
 		<h2>A tu bedzie o zasadach</h2>
 	</section>
 
-	<section class="sizeContent" id="etapy">
+	<section class="sizeBlock" id="etapy">
 		<h2>Etapy procesu twórczego</h2>
 	</section>
 
