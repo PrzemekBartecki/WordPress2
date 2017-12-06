@@ -4,7 +4,8 @@
 
 	<section id="kreoMenu" >
 		<div class="menuKreatywnosc">
-			<a href="#"> Up </a>
+			<a href="#"> <i class="fa fa-home " style="font-size:24px;" aria-hidden="true"></i>
+			</a>
 			<a href="#wstep"> Wstęp </a>
 			<a href="#zasady"> Q kreatywnosci </a>
 			<a href="#etapy"> Etapy procesu twórczego </a>

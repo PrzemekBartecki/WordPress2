@@ -26,7 +26,10 @@ function project_enqueue_script() {
 	wp_enqueue_style(
         'main',
         get_stylesheet_directory_uri() . '/css/main.css',
-        null );
+        ['fontawesome'] );
+
+	wp_enqueue_style(
+		'fontawesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 
 }
 add_action( 'wp_enqueue_scripts' , 'project_enqueue_script' );
