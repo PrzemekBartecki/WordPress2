@@ -386,7 +386,7 @@ a:focus, a, button, input[type="submit"] {
     border-right: 1px solid #C3423F;
     padding-top: 12vh; }
 
-.contentSize {
+article.contentSize {
   width: 100%;
   max-width: 750px;
   margin: 0 auto; }
