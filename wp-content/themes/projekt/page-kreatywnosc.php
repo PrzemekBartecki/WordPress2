@@ -30,7 +30,7 @@
 
 	<section class="sizeContent" id="wstep">
 		<p>Tekst wprowadzajcy do rkeatynwsoci</p>
-		<article class="contentSize">
+		<article class="sizeWstep">
 			<p>
 				Paul Johnson w jednej ze swoich książek pisze, Skoro wszyscy jesteśmy obrazem Boga, każdy z nas ma
 				cechy twórcze i cały problem polega na tym, jak je wydobyć. Dla osób które nie wierzą w istnieje
