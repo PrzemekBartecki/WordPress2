@@ -14,7 +14,7 @@
 	<!--	***************************************************-->
 	<!--	================ pętla WP =========================-->
 	<!--	***************************************************-->
-	<div class="about2">
+	<div class="post">
 		<?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
 			<!-- post -->
 			<?php the_post_thumbnail();?>
@@ -28,7 +28,7 @@
 		<?php endif; ?>
 	</div>
 
-	<section class="sizeContent" id="wstep">
+	<section class="sizeBlock" id="wstep">
 		<p>Tekst wprowadzajcy do rkeatynwsoci</p>
 		<article class="sizeWstep">
 			<p>

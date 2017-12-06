@@ -22,7 +22,7 @@
   }
 }
 
-.sizeContent {
+.sizeBlock {
  	 min-height: calc(100vh - 10vh);
      border-radius: 15px;
 
@@ -57,7 +57,8 @@ article.sizeWstep{
   max-width:750px;
   margin:0 auto;
 }
-.about2 {
+
+.post {
   p{
 	margin: 30px 10px 5px 0;
 	font-size: 18px;

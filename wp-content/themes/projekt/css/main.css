@@ -361,24 +361,24 @@ a:focus, a, button, input[type="submit"] {
       font-size: 20px;
       font-weight: 600; }
 
-.sizeContent {
+.sizeBlock {
   min-height: calc(100vh - 10vh);
   border-radius: 15px; }
-  .sizeContent#wstep {
+  .sizeBlock#wstep {
     color: blue;
     border-top: 9px solid #5bc0eb;
     border-bottom: 9px solid #5bc0eb;
     border-left: 1px solid #5bc0eb;
     border-right: 1px solid #5bc0eb;
     padding-top: 12vh; }
-  .sizeContent#zasady {
+  .sizeBlock#zasady {
     color: red;
     border-top: 9px solid #fde74c;
     border-bottom: 9px solid #fde74c;
     border-left: 1px solid #fde74c;
     border-right: 1px solid #fde74c;
     padding-top: 12vh; }
-  .sizeContent#etapy {
+  .sizeBlock#etapy {
     color: blueviolet;
     border-top: 9px solid #C3423F;
     border-bottom: 9px solid #C3423F;
@@ -391,11 +391,11 @@ article.sizeWstep {
   max-width: 750px;
   margin: 0 auto; }
 
-.about2 p {
+.post p {
   margin: 30px 10px 5px 0;
   font-size: 18px; }
 
-.about2 img {
+.post img {
   float: left;
   margin: 10px 15px 10px 15px; }
 

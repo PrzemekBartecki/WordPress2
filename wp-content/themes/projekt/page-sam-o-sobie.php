@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
-<article class="container">
-	<div class="about">
+<article class="container about">
 	<?php if ( have_posts() ) : while ( have_posts() ) :    the_post(); ?>
 		<!-- post -->
 		<?php the_post_thumbnail();?>
@@ -13,7 +12,7 @@
 
 		<!-- no posts found -->
 	<?php endif; ?>
-	</div>
+
 </article>
 <?php get_footer(); ?>
 
