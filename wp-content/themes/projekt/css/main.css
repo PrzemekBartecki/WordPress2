@@ -9,7 +9,7 @@ html, body {
 
 body {
   position: relative;
-  min-height: calc(100vh - 4vh);
+  min-height: calc(100vh - 34px);
   padding-bottom: 34px;
   font-family: 'Ubuntu Condensed', sans-serif; }
   @media only screen and (max-width: 640px) {
@@ -18,7 +18,7 @@ body {
 
 header {
   width: 100%;
-  height: 6vh;
+  height: 57px;
   position: relative;
   z-index: 9999999; }
   @media only screen and (max-width: 640px) {
@@ -58,6 +58,9 @@ header {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0; }
@@ -505,7 +508,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 6vh;
+  height: 57px;
   background-color: rgba(85, 150, 126, 0.79);
   text-align: center;
   display: -webkit-box;
