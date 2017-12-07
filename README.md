@@ -1,13 +1,9 @@
 # wordpress
 
-
-##My final project with wordpress
-http://165.227.148.90/
-###Status: in progress
-
-###I want to go through the whole process of creating a website, and show what I do
-
-###technologies: HTML, CSS / SASS, jQuery, RWD
+## My final project with wordpress http://165.227.148.90/
+### Status: in progress
+### I want to through the whole process of creating a website, and show what I do
+#### technologies: HTML, CSS / SASS, jQuery, RWD
 
 
 ## screenshot
