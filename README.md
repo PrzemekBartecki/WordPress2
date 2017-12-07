@@ -2,7 +2,7 @@
 
 ## My final project with wordpress http://165.227.148.90/
 ### Status: in progress
-### I want to through the whole process of creating a website, and show what I do
+### My aim is to go through the whole process of creating a website. I would also like to show what inspires me in life.
 #### technologies: HTML, CSS / SASS, jQuery, RWD
 
 
