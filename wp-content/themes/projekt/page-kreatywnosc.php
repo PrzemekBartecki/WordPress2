@@ -88,17 +88,21 @@
 			</p>
 		</article>
 	</section>
-
+<!--************************************************************************-->
+<!--=================  ZASADY  =============================================-->
+<!--************************************************************************	-->
 	<section class="sizeBlock" id="zasady">
-		<p>
-			Poniżej znajdziesz najważniejsze zasady związane z kreatywnością. Tak, kreatywność ma swoje zasady. Te zapisane
-			poniżej, poznałem będą trenerem w programie Destiatnion Imagination. Nie są to jedyne zasady, ale jeśłi wprowadzisz
-			je do swojej pracy, projektów, życia codziennego, na pewno zaobserwujesz zmiany.
 
-		</p>
 		<article class="readTxt">
+			<p>
+				Poniżej znajdziesz najważniejsze zasady związane z kreatywnością. Tak, kreatywność ma swoje zasady. Te zapisane
+				poniżej, poznałem będą trenerem w programie Destiatnion Imagination. Nie są to jedyne zasady, ale jeśłi wprowadzisz
+				je do swojej pracy, projektów, życia codziennego, na pewno zaobserwujesz zmiany.
+			</p>
 			<div class="rules">
-				<h3>Odroczona krytyka</h3>
+
+				<h3><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+					Odroczona krytyka</h3>
 				<p>
 					<i>to jedna z najważniejszych zasada, w fazie generowania pomysłów nie oceniamy, przyjmujemy je takie
 						jakie są, to naprawdę ważna zasada. Pomysły ocenia się dopiero w późniejszym etapie i jest to
@@ -107,28 +111,33 @@
 				</p>
 			</div>
 			<div class="rules">
-				<h3>Ilość przechodzi w Jakość</h3>
+				<h3><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+
+					Ilość przechodzi w Jakość</h3>
 				<p>
 					<i>im więcej pomysłów tym lepiej, będą one coraz lepsze. Po prostu  czasem trzeba wyrzucić z siebie
 						jakiś pomysł by zrobić miejsce następnemu.</i>
 				</p>
 			</div>
 			<div class="rules">
-				<h3>Pomysł jest wspólny</h3>
+				<h3><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+					Pomysł jest wspólny</h3>
 				<p>
 					<i>obecnie najcenniejsze pomysły powstają w grupie, którą uznaje się za całość, sumę lub synergię jej
 						poszczególnych osób. Dlatego nie ma czegoś takiego że pomysł jest mój.</i>
 				</p>
 			</div>
 			<div class="rules">
-				<h3>Modyfikacja pomysłów</h3>
+				<h3><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+					Modyfikacja pomysłów</h3>
 				<p>
 					<i>to że pomysł jest wspólny powoduje, że jest tak samo mój jak i twój, więc mam prawo go modyfikować,
 						zmieniać, rozbudowywać lub ciąć i nadal na samym końcu będzie to wspólny pomysł.</i>
 				</p>
 			</div>
 			<div class="rules">
-				<h3>Fantazjowanie</h3>
+				<h3><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+					Fantazjowanie</h3>
 				<p>
 					<i>pomysły, działania nie muszą być racjonalne. To czy rzekomo nie możliwy pomysł lub z bajki będzie
 						możliwy do wykonania to już inny etap. Po prostu pozwól sobie na lekkość bytu, nie musisz twardo
@@ -136,13 +145,15 @@
 				</p>
 			</div>
 			<div class="rules">
-				<h3>Co nie jest zabronione jest dozwolone</h3>
+				<h3><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+					Co nie jest zabronione jest dozwolone</h3>
 				<p>
 					<i>nie ma czegoś takiego jak tabu. Jeżeli coś nie jest zabronione to jest dozwolone.</i>
 				</p>
 			</div>
 			<div class="rules">
-				<h3>Różnorodność</h3>
+				<h3><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+					Różnorodność</h3>
 				<p>
 					<i>to troche takie wyjście poza schemat. Czasem jak ktoś zaczyna sypać pomysłami to są one z jednej
 						grupy/kategorii/ dzialu. A zeby jeszcze bardziej urozmaicić warto dawać pomysly z różnych kategorii.</i>
@@ -152,9 +163,45 @@
 		</article>
 
 	</section>
+	<!--************************************************************************-->
+	<!--=================  Etapy  =============================================-->
+	<!--************************************************************************	-->
 
 	<section class="sizeBlock" id="etapy">
-		<h2>Etapy procesu twórczego</h2>
+
+
+		<article class="readTxt">
+			<div class="stage">
+				<h3>Zrozumienie</h3>
+
+			</div>
+			<div class="stage">
+				<h3>Generowanie pomysłów</h3>
+
+			</div>
+			<div class="stage">
+				<h3>Wybór Najlepszego</h3>
+
+			</div>
+			<div class="stage">
+				<h3>Podział ról i zadań</h3>
+
+			</div>
+			<div class="stage">
+				<h3>Realizacja</h3>
+
+			</div>
+			<div class="stage">
+				<h3>Weryfikacja</h3>
+
+			</div>
+			<div class="stage">
+				<h3>Wnioski</h3>
+
+			</div>
+
+
+		</article>
 	</section>
 
 </section>

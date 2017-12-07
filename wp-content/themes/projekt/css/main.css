@@ -405,17 +405,21 @@ a:focus, a, button, input[type="submit"] {
 .rules {
   width: 100%;
   max-height: 50px;
-  margin: 10px 0;
+  margin: 50px 0;
   -webkit-transition: max-height 2s;
   transition: max-height 2s; }
+  .rules h3 {
+    text-align: center; }
   .rules p {
+    text-align: center;
     visibility: hidden;
-    -webkit-transition-delay: 0.8s;
-    transition-delay: 0.8s; }
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s; }
   .rules:hover {
     max-height: 140px; }
     .rules:hover p {
-      visibility: visible; }
+      visibility: visible;
+      background-color: ghostwhite; }
 
 #mainImg {
   background-image: url("../img/mainImg.png");
