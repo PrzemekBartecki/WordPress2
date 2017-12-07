@@ -108,7 +108,7 @@ header {
 ====== odstęp pod menu by nic na nie wchodziło ======
 *********************************/
 .space {
-  height: 6vh; }
+  height: 57px; }
   @media only screen and (max-width: 640px) {
     .space {
       height: 50px; } }
@@ -304,7 +304,7 @@ div.kontakt {
   max-width: 1200px;
   width: 100%;
   height: auto;
-  margin: 10px auto;
+  margin: 25px auto 35px auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-image: url("../img/cloud.jpg");
@@ -408,7 +408,7 @@ a:focus, a, button, input[type="submit"] {
   height: auto;
   max-width: 100%;
   background-repeat: no-repeat;
-  background-position: center -55px;
+  background-position: center -160px;
   background-attachment: fixed;
   background-size: cover;
   margin: 0 auto;
