@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a16e3ff-0625-4709-a8bf-9b20dba25a62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_zdrowie.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/page-zdrowie.php" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/page-zdrowie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_kreatywnosc.scss" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_kreatywnosc.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/scss/main.scss" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_zdrowie.scss" afterPath="$PROJECT_DIR$/wp-content/themes/projekt/scss/_zdrowie.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,12 +32,13 @@
           <file leaf-file-name="page-zdrowie.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/page-zdrowie.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+                <state relative-caret-position="145">
+                  <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
                   <folding>
-                    <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#article#0;n#section#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#svg#0;n#span#0;n#a#0;n#div#0;n#article#0;n#section#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#article#0;n#section#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#article#0;n#section#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#0;n#a#0;n#article#0;n#section#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#svg#0;n#span#0;n#a#0;n#article#0;n#section#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#1;n#a#0;n#article#0;n#section#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -51,7 +50,7 @@
                 <state relative-caret-position="-29">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <marker date="1513022827774" expanded="true" signature="0:1" ph="{...}" />
+                    <marker date="1513025135306" expanded="true" signature="0:1" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -64,8 +63,8 @@
           <file leaf-file-name="_zdrowie.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/scss/_zdrowie.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <state relative-caret-position="435">
+                  <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -123,8 +122,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/projekt/page-kreatywnosc.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/projekt/scss/_kreatywnosc.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/projekt/scss/main.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/projekt/scss/_zdrowie.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/projekt/page-zdrowie.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/projekt/scss/_zdrowie.scss" />
       </list>
     </option>
   </component>
@@ -344,12 +343,12 @@
       <workItem from="1512556248395" duration="5007000" />
       <workItem from="1512578621935" duration="3648000" />
       <workItem from="1512660475202" duration="11586000" />
-      <workItem from="1512995900179" duration="8218000" />
+      <workItem from="1512995900179" duration="9327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240830000" />
+    <option name="totallyTimeSpent" value="241939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
@@ -724,25 +723,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/scss/_zdrowie.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/page-zdrowie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="145">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
-            <marker date="1513022827774" expanded="true" signature="0:1" ph="{...}" />
+            <element signature="n#style#0;n#a#0;n#article#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#article#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#span#0;n#a#0;n#article#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#a#0;n#article#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/page-zdrowie.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/projekt/scss/_zdrowie.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#article#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#span#0;n#a#0;n#div#0;n#article#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#article#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

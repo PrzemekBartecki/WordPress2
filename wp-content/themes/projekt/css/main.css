@@ -438,7 +438,7 @@ a:focus, a, button, input[type="submit"] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: calc(100% + 30px);
     position: absolute;
     z-index: -1;
     top: 0;
