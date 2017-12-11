@@ -4,6 +4,7 @@
   font-size: 20px;
   line-height: 1.5em;
   position: relative;
+  z-index: 1;
 
   &:before{
     content: "";
@@ -13,7 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:calc(100% + 30px);
+    height:calc (100% + 26x);
     position: absolute;
     z-index: -1;
     top: 0;

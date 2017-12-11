@@ -429,7 +429,8 @@ a:focus, a, button, input[type="submit"] {
   color: black;
   font-size: 20px;
   line-height: 1.5em;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   .healty:before {
     content: "";
     display: block;
@@ -438,7 +439,7 @@ a:focus, a, button, input[type="submit"] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100% + 30px);
+    height: calc(100% + 28px);
     position: absolute;
     z-index: -1;
     top: 0;
