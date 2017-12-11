@@ -1,0 +1,28 @@
+
+.healty{
+  color: black;
+  font-size: 20px;
+  line-height: 1.5em;
+  position: relative;
+
+  &:before{
+    content: "";
+    display: block;
+    background-image: url("../img/healt.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height:100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .7;
+
+
+        }
+  }
+

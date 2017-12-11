@@ -404,10 +404,10 @@ a:focus, a, button, input[type="submit"] {
 
 .rules {
   width: 100%;
-  max-height: 50px;
-  margin: 50px 0;
-  -webkit-transition: max-height 1s;
-  transition: max-height 1s; }
+  max-height: 40px;
+  margin: 40px 0;
+  -webkit-transition: max-height 0.7s;
+  transition: max-height 0.7s; }
   .rules h3 {
     text-align: center; }
   .rules p {
@@ -424,6 +424,28 @@ a:focus, a, button, input[type="submit"] {
       -webkit-transition-delay: 0.8s;
       transition-delay: 0.8s;
       background-color: ghostwhite; }
+
+.healty {
+  color: black;
+  font-size: 20px;
+  line-height: 1.5em;
+  position: relative; }
+  .healty:before {
+    content: "";
+    display: block;
+    background-image: url("../img/healt.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .7; }
 
 #mainImg {
   background-image: url("../img/mainImg.png");
