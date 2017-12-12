@@ -4,7 +4,7 @@
   font-size: 20px;
   line-height: 1.5em;
   position: relative;
-  z-index: 1;
+  //z-index: 1;
 
   &:before{
     content: "";
@@ -14,9 +14,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:calc (100% + 26x);
+    height:calc(100% + 26px);
     position: absolute;
-    z-index: -1;
+    z-index: -5;
     top: 0;
     bottom: 0;
     left: 0;
@@ -24,4 +24,57 @@
     opacity: .7;
     }
   }
+
+.healty2{
+	height:800px;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	align-items:center;
+	text-align: center;
+	p {
+	  background-color: rgba(#777, 0.7);
+	  span {
+		font-size: 25px;
+	  }
+	}
+}
+
+.shortInfo{
+	color: #777;
+	background-color:white;
+  	padding: 40px 15px 0px 15px;
+	text-align: justify;
+	h3, h4{
+	  text-align: center;
+  	}
+  	ol{
+	  margin-left:35px;
+	  li{
+		padding: 5px 0;
+	  }
+	}
+  }
+.omegaBg, .studyBg, .chsBg{
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.omegaBg{
+  background-image:url("../img/omega.jpg");
+  height: 450px;
+}
+.studyBg{
+  background-image:url("../img/badania.jpg");
+  height: 140px;
+  background-size: contain;
+}
+.chsBg{
+  background-image:url("../img/chs.jpg");
+  height: 600px;
+}
+
 

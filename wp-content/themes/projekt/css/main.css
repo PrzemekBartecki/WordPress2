@@ -429,8 +429,7 @@ a:focus, a, button, input[type="submit"] {
   color: black;
   font-size: 20px;
   line-height: 1.5em;
-  position: relative;
-  z-index: 1; }
+  position: relative; }
   .healty:before {
     content: "";
     display: block;
@@ -439,14 +438,67 @@ a:focus, a, button, input[type="submit"] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100% + 28px);
+    height: calc(100% + 26px);
     position: absolute;
-    z-index: -1;
+    z-index: -5;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: .7; }
+
+.healty2 {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center; }
+  .healty2 p {
+    background-color: rgba(119, 119, 119, 0.7); }
+    .healty2 p span {
+      font-size: 25px; }
+
+.shortInfo {
+  color: #777;
+  background-color: white;
+  padding: 40px 15px 0px 15px;
+  text-align: justify; }
+  .shortInfo h3, .shortInfo h4 {
+    text-align: center; }
+  .shortInfo ol {
+    margin-left: 35px; }
+    .shortInfo ol li {
+      padding: 5px 0; }
+
+.omegaBg, .studyBg, .chsBg {
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.omegaBg {
+  background-image: url("../img/omega.jpg");
+  height: 450px; }
+
+.studyBg {
+  background-image: url("../img/badania.jpg");
+  height: 140px;
+  background-size: contain; }
+
+.chsBg {
+  background-image: url("../img/chs.jpg");
+  height: 600px; }
 
 #mainImg {
   background-image: url("../img/mainImg.png");
