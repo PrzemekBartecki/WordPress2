@@ -438,7 +438,8 @@ a:focus, a, button, input[type="submit"] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100% + 26px);
+    border-radius: 40px;
+    height: 100%;
     position: absolute;
     z-index: -5;
     top: 0;
@@ -464,7 +465,7 @@ a:focus, a, button, input[type="submit"] {
   align-items: center;
   text-align: center; }
   .healty2 p {
-    background-color: rgba(119, 119, 119, 0.7); }
+    background-color: rgba(119, 119, 119, 0.5); }
     .healty2 p span {
       font-size: 25px; }
 
@@ -485,7 +486,8 @@ a:focus, a, button, input[type="submit"] {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  border-radius: 40px; }
 
 .omegaBg {
   background-image: url("../img/omega.jpg");
