@@ -1,8 +1,13 @@
 <?php get_header(); ?>
 
 <section class="container">
-
+	<div class="nav-kreo">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
 	<section id="kreoMenu" >
+
 		<div class="menuKreatywnosc">
 			<a href="#"> <i class="fa fa-home " style="font-size:24px;" aria-hidden="true"></i>
 			</a>
@@ -10,6 +15,7 @@
 			<a href="#zasady"> Q kreatywnosci </a>
 			<a href="#etapy"> Etapy procesu twórczego </a>
 		</div>
+
 	</section>
 	<div class="space"></div>
 	<!--	***************************************************-->

@@ -344,7 +344,11 @@ a:focus, a, button, input[type="submit"] {
 #kreoMenu {
   position: fixed;
   width: 100%;
-  max-width: 1200px; }
+  max-width: 1200px;
+  -webkit-transition: 1s ease-in-out all;
+  transition: 1s ease-in-out all;
+  -webkit-transition: 1s;
+  transition: 1s; }
   #kreoMenu .menuKreatywnosc {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -363,6 +367,23 @@ a:focus, a, button, input[type="submit"] {
       color: #211A1E;
       font-size: 20px;
       font-weight: 600; }
+
+@media only screen and (max-width: 640px) {
+  #kreoMenu {
+    top: 133px;
+    right: -310px; }
+    #kreoMenu .menuKreatywnosc {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      background-color: rgba(155, 197, 61, 0.2);
+      width: 220px;
+      text-align: center;
+      float: right; }
+      #kreoMenu .menuKreatywnosc a {
+        border: 4px solid #9BC53D;
+        margin-top: 2px; } }
 
 .sizeBlock {
   min-height: calc(100vh - 10vh);
@@ -424,6 +445,31 @@ a:focus, a, button, input[type="submit"] {
       -webkit-transition-delay: 0.8s;
       transition-delay: 0.8s;
       background-color: ghostwhite; }
+
+.nav-kreo {
+  display: none;
+  width: 55px;
+  height: 55px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  float: right;
+  margin-top: 6px; }
+  @media only screen and (max-width: 640px) {
+    .nav-kreo {
+      display: block;
+      position: fixed;
+      right: 0; } }
+  .nav-kreo span {
+    width: 70%;
+    margin: 6px auto;
+    height: 5px;
+    background: #9BC53D;
+    display: block;
+    border-radius: 2px; }
+
+.show2 {
+  left: 0; }
 
 .healty {
   color: black;

@@ -28,18 +28,18 @@ header{
   	z-index: 9999999;
 }
 .container {
-  max-width: 1200px;
-  margin: 0 auto 45px auto;
-  box-sizing: border-box;
-  h2 {
-	text-align: center;
-	}
-  p, ul, h3 {
-	padding: 0 15px;
-  }
-  p{
-	line-height: 1.75em;
-  }
+	max-width: 1200px;
+	margin: 0 auto 45px auto;
+	box-sizing: border-box;
+	h2 {
+	  text-align: center;
+	  }
+	p, ul, h3 {
+	  padding: 0 15px;
+	  }
+	p{
+	  line-height: 1.75em;
+	  }
   }
 #leftMenu {
   position: fixed;
