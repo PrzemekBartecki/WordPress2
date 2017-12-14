@@ -35,7 +35,8 @@ header {
   .container p, .container ul, .container h3 {
     padding: 0 15px; }
   .container p {
-    line-height: 1.75em; }
+    line-height: 1.75em;
+    text-indent: 50px; }
 
 #leftMenu {
   position: fixed;
@@ -345,10 +346,8 @@ a:focus, a, button, input[type="submit"] {
   position: fixed;
   width: 100%;
   max-width: 1200px;
-  -webkit-transition: 1s ease-in-out all;
-  transition: 1s ease-in-out all;
-  -webkit-transition: 1s;
-  transition: 1s; }
+  -webkit-transition: right 1s;
+  transition: right 1s; }
   #kreoMenu .menuKreatywnosc {
     display: -webkit-box;
     display: -ms-flexbox;
